@@ -1,0 +1,33 @@
+# Platformer Demo
+
+## What is this
+A simple 3D platformer game built with Three.js. The player controls a cube character that can move, jump, and land on platforms.
+
+## Tech stack
+- **Three.js** — 3D rendering
+- **Vite** — dev server and bundler
+- **Vanilla JavaScript** — no framework, no TypeScript
+
+## Project structure
+```
+index.html          — entry point, loads src/main.js
+src/main.js         — game logic: scene, player, controls, game loop
+```
+
+## Coding conventions
+- ES modules (`import`/`export`)
+- Keep it simple — all game code in main.js unless it gets too large
+- No classes unless needed — plain functions and objects
+- Use `const` by default, `let` when mutation is needed
+- Descriptive variable names: `playerMesh`, `groundPlane`, `moveSpeed`
+
+## Game requirements
+- 3D scene with a ground plane and floating platforms
+- Player is a cube that moves with WASD keys
+- Space to jump, with gravity pulling the player down
+- Simple collision detection with platforms
+- Third-person camera that follows the player
+
+## Commands
+- `npm run dev` — start dev server
+- `npm run build` — production build

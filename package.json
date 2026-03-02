@@ -1,0 +1,14 @@
+{
+  "name": "agent-coding-demo",
+  "version": "1.0.0",
+  "description": "Three.js platformer — live demo for AI coding talk",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "three": "^0.183.2",
+    "vite": "^7.3.1"
+  }
+}
